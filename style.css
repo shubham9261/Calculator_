@@ -1,0 +1,46 @@
+
+.Box{
+	height:80vh;
+	width:60vw;
+	background-color: grey;
+	margin-left:20vw;
+	margin-top:10vh;
+	padding-top: 5vh;
+	padding-left: 2.5vw;
+	
+}
+.display{
+	height:15vh;
+	width:55vw;
+	background-color: white;
+	/* margin-left:2.5vw;
+	 */
+	 overflow:scroll;
+}
+.row1,.row2,.row3,.row4,.row5{
+	height:10vh;
+	width:55vw;
+	/* background-color: green; */
+	margin-top:1.5vh;
+	display:flex;
+	padding:5px;
+	justify-content: space-around;
+}
+
+.col,.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12,.col13,.col14,.col15,.col16,.col17,.col18,.col19{
+	height:inherit;
+	width:12vw;
+	background-color:white;
+	font-size: 2rem;
+	text-align: center;
+}
+.col17{
+	flex-grow: 2;
+	background-color:white;
+
+}
+.col18,.col19{
+	flex-grow: 1;
+	background-color: white;
+	margin-left: 5px;
+}
